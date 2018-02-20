@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<div id="content">
+		NE!
+	</div>
+	<script>
+		let today = new Date();
+		if (today.getDay() > 2 && today.getDay() < 5) {
+			document.getElementById('content').innerHTML = "ANO!";
+		} else {
+			document.getElementById('content').innerHTML = "NE!";
+		}
+	</script>
+</body>
+</html>
